@@ -1,0 +1,64 @@
+body{
+    text-align: center;
+    color:rgb(255, 111, 0);
+    background-image: url("https://t4.ftcdn.net/jpg/02/99/84/89/360_F_299848927_S0EwX0P6HWGigW6qZWFIBaczKMQuq5D9.jpg");
+    background-size: 100%;
+}
+
+.calculadora{
+    display: block;
+    margin:0 auto;
+    padding: 20px;
+    background-color: #0acff6;
+    width: 335px;
+    height: 550px;
+    border-radius: 25px;
+}
+
+.calculadora td button{
+    background-color: white;
+    display: block;
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+    border-style: none;
+    border-radius: 10px;
+}
+
+
+#resultado{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+    width: 290px;
+    height: 100px;
+    line-height: 100px;
+    background-color: white;
+    border-radius: 25px;
+    overflow-y: scroll;
+}
+
+.opr{
+    font-size: 50px;
+}
+.opr:hover{
+    background-color: rgb(249, 147, 13);
+}
+
+.num:hover{
+    background-color: rgb(12, 166, 249);
+}
+
+.resp:hover{
+ background-color: rgb(4, 248, 166);
+}
+
+.borrar:hover{
+    background-color: red;
+}
+
+footer{
+    
+    color: black;
+}
